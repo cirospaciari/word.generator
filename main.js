@@ -15,7 +15,7 @@ class  WordGenerator{
         let indexes = new Array(quantity);
         for(let i = 0; i < quantity; i++){
             while(true){
-                let index = Math.floor(Math.random() * (possible_words.length - 1 + 1)) - 1;
+                let index = Math.floor(Math.random() * (possible_words.length - 1));
                 if(indexes.some(v => v == index))
                     continue;
 
