@@ -1,6 +1,6 @@
 {
   "name": "@ciro.spaciari/word.generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate a random array of english words",
   "main": "main.js",
   "scripts": {
@@ -8,8 +8,9 @@
   },
   "author": "ciro.spaciari@gmail.com",
   "license": "MIT",
-  "git": "",
+  "git": "https://github.com/cirospaciari/word.generator",
   "dependencies": {
     "crypto-js": "^3.1.9-1"
-  }
+  },
+  "keywords": ["word", "generator", "random", "quantity", "length", "english"]
 }
