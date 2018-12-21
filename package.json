@@ -1,14 +1,25 @@
 {
   "name": "@ciro.spaciari/word.generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate a random array of english words",
   "main": "main.js",
   "scripts": {
     "test": "nodemon test"
   },
-  "author": "ciro.spaciari@gmail.com",
+  "author": {
+    "name": "Ciro César Martins Spaciari Jr"
+  },
+  "contributors": [
+    {
+      "name": "Ciro César Martins Spaciari Jr",
+      "email": "ciro.spaciari@gmail.com"
+    }
+  ],
   "license": "MIT",
-  "git": "https://github.com/cirospaciari/word.generator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cirospaciari/word.generator"
+  },
   "dependencies": {
     "crypto-js": "^3.1.9-1"
   },
