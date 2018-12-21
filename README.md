@@ -5,13 +5,13 @@ All words are provided by https://raw.githubusercontent.com/dwyl/english-words.
 
 To install:
 ```sh
-npm install word.generator
+npm install @ciro.spaciari/word.generator
 ```
 
 Example of use:
 
 ```javascript
-const WordGenerator = require("word.generator");
+const WordGenerator = require("@ciro.spaciari/word.generator");
 //quantity of words and min length of each word as parameters
 console.log(WordGenerator.generate(12, 3));
 ```

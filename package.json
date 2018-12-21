@@ -1,5 +1,5 @@
 {
-  "name": "word.generator",
+  "name": "@ciro.spaciari/word.generator",
   "version": "1.0.0",
   "description": "Generate a random array of english words",
   "main": "main.js",
